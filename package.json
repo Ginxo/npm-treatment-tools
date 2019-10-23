@@ -1,0 +1,37 @@
+{
+  "name": "npm-treatment-tools",
+  "version": "0.0.2",
+  "description": "Npm Treatment Tools",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore ./",
+    "test": "tap -j4 --coverage test/test-*",
+    "posttest": "tap --coverage-report=cobertura"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ginxo/npm-treatment-tools"
+  },
+  "keywords": [
+    "lint",
+    "package.json",
+    "init"
+  ],
+  "author": "Enrique Mingorance <emingora@redhat.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ginxo/npm-treatment-tools/issues"
+  },
+  "homepage": "https://github.com/ginxo/npm-treatment-tools",
+  "bin": {
+    "npmtt": "bin/npmtt.js"
+  },
+  "engines": {
+    "node": ">=5"
+  },
+  "dependencies": {
+    "line-reader": "^0.4.0",
+    "meow": "^5.0.0",
+    "minimist": "^1.2.0"
+  }
+}
