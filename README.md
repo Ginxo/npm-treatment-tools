@@ -35,7 +35,7 @@ Typical usage, if you want to remove the fields:
 
 ```
 
-#### slt copyright
+#### copyright
 
 Looks at all the .js files in the current git repo and adds/updates a
 standard copyright notice to the top. The exact wording of the copyright

@@ -1,6 +1,6 @@
 {
   "name": "npm-treatment-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Npm Treatment Tools",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
     "url": "git@github.com:ginxo/npm-treatment-tools"
   },
   "keywords": [
-    "lint",
+    "yarn.lock",
     "package.json",
-    "init"
+    "registry"
   ],
   "author": "Enrique Mingorance <emingora@redhat.com>",
   "license": "Apache-2.0",
