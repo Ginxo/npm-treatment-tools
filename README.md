@@ -15,11 +15,11 @@ Install from npmjs.org:
 ### npmtt
 
 ```
-usage: npmtt [-hr]
+usage: npmtt [Options]
 
 Options:
-  h   print this helpful message
-  r   remove `resolved` and `integrity` fields from package-lock.json and/or yarn.lock
+  help   print this helpful message
+  remove   remove `resolved` and `integrity` fields from package-lock.json and/or yarn.lock
 
 What npmtt will do:
  - look for package-lock.json or yarn.lock files
@@ -27,11 +27,14 @@ What npmtt will do:
  - save the file
 
 npmtt will abort if:
- - no lock file is present
+ - the package-json.lock file format is not correct
+
+npmtt will NOT abort if:
+ - the package-json.lock file and/or yarn.lock does not exist
 
 Typical usage, if you want to remove the fields:
 
-  npmtt -r
+  npmtt remove
 
 ```
 

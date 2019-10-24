@@ -16,9 +16,6 @@
 // under the License.
 
 'use strict';
-require('./script/help');
-const remove = require('./script/remove');
-const argv = require('minimist')(process.argv.slice(2));
-// if (argv.r) {
-//   remove.removeLockFields(".", ".");
-// }
+
+const help = require('../lib/help');
+help.print();

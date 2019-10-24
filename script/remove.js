@@ -17,14 +17,5 @@
 
 'use strict';
 
-const packageLock = require('./formats/package-lock.json');
-const yarnLock = require('./formats/yarn.lock');
-
-
-function removeLockFields(folderPath, outputFolder = folderPath) {
-    console.log("Removing fields...");
-    packageLock.removeLockFields(folderPath, outputFolder);
-    yarnLock.removeLockFields(folderPath, outputFolder);
-}
-
-module.exports.removeLockFields = removeLockFields;
+const remove = require('../lib/remove');
+remove.removeLockFields(".", ".");
