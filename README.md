@@ -1,6 +1,9 @@
 npm-treatment-tools
 ============
 
+#DEPRECATED
+This library has being replaced by https://github.com/Ginxo/lock-treatment-tool
+
 Helpers for treating npm lock files
 
 Install from npmjs.org:
