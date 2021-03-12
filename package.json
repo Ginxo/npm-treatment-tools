@@ -33,6 +33,6 @@
     "line-reader": "^0.4.0",
     "meow": "^5.0.0",
     "minimist": "^1.2.0",
-    "react-dev-utils": "^9.1.0"
+    "react-dev-utils": "^11.0.4"
   }
 }
